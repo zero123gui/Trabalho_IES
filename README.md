@@ -7,8 +7,6 @@
 
 #Professor: Willian Francisco
 
-#A entrega desses exercícios deve ser feita em iterações ja predefinidas sendo a primeira dos grupos 4(funções) e 8(matrizes) para dia 03/10.
-
 #Primeira entrega(03/11): Grupo 4(Funções) e Grupo 8(Matrizes)
 
 #Os exercícios foram feitos pelo VsCode em linguagem C.
