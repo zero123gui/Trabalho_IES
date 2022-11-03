@@ -6,14 +6,14 @@ void primeiro(int valor){
    valor = valor*0.9;
    printf("Valor a vista com 10%% de desconto: R$%d",valor);
 }
-
+//calcula o valor da op 1
 void segundo(int valor){
    int parcelas; 
    valor = valor / 2;
    printf("Valor da cada parcela=%d\n",valor);
 
 }
-
+//calcula o valor da op2
 void terceiro(int valor,int parcelas){
 int quantidade;
    if(valor>100){
@@ -24,7 +24,7 @@ int quantidade;
    }
     
 }
-
+//calcula o valor da op3
 
 int main(){
    int valor,parcelas,op;

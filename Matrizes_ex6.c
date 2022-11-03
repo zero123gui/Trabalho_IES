@@ -11,7 +11,7 @@ void scanmatA(int matA[][4]){
 }
 //le os elementos da matriz
 
-void diagP(int matA[][4]){
+void diagS(int matA[][4]){
     int l,c;
     printf("Elementos da diagonal segundaria:\n");
     for(l = 0; l < 4; l++){
@@ -35,6 +35,6 @@ int main(){
         }
         printf("\n");
     }
-    diagP(matA);
+    diagS(matA);
 return 0;
 }

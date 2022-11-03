@@ -9,7 +9,7 @@ void scanmatA(int matA[][3]){
             scanf("%d ", &matA[l][c]);
         }
 }
-
+//recebe os valores da matriz
 void menormaior(int matA[][3]){
     int i,j,min,max = 0,aux1,aux2;
     for (i = 0; i < 3;i++){
@@ -28,7 +28,7 @@ void menormaior(int matA[][3]){
     printf("Menor: %d\n", min);
     printf("Maior: %d\n", max);
 }
-
+//define o maior e o menor valor
 int main(){
     int matA[3][3];
     int l, c;

@@ -6,6 +6,7 @@ void scanmat(int mat[][3]){
             scanf("%d",&mat[i][j]);
     }
 }
+// recebe os valores da matriz
 void printmat(int mat[][3]){
     for (int i = 0; i < 3; i++){
     for (int j = 0; j < 3; j++)
@@ -13,6 +14,7 @@ void printmat(int mat[][3]){
     printf("\n");
     }
 }
+//imprime a matriz recebida
 void somaimp(int mat[][3]){
     int soma = 0;
     for(int i = 0; i < 3; i++){
@@ -24,6 +26,7 @@ void somaimp(int mat[][3]){
     }
     printf("%d",soma);
 }
+//soma os numeros impares e os imprime
 int main()
 {
 int mat[3][3];

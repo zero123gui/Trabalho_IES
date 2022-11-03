@@ -20,7 +20,7 @@ void somacolunas(int matA[][4]){
     printf("Soma da coluna %d = %d\n", c, soma);
     }
 }
-//realiza e imprime a soma das linhas
+//realiza e imprime a soma das colunas
 int main(){
     int matA[4][4], l, c;
     scanmatA(matA);
