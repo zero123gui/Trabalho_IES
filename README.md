@@ -7,7 +7,9 @@
 
 #Professor: Willian Francisco
 
-#Primeira entrega(03/11): Grupo 4(Funções) e Grupo 8(Matrizes)
+#Primeira entrega(03/11): Funções e Matrizes;
+#Segunda entrega(): Parâmetros e Strings;
+#Terceira entrega(): Sequenciais simples e Controle de fluxo;
 
 #Os exercícios foram feitos pelo VsCode em linguagem C.
 

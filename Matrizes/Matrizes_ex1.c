@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 void scanmat(int mat[][3]){
+    printf("Insira os valores da matriz:\n");
     for(int i = 0; i < 3; i++){
         for(int j = 0; j < 3; j++)
             scanf("%d",&mat[i][j]);
