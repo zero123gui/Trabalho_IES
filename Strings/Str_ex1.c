@@ -1,38 +1,52 @@
 #include <stdio.h>
 #include <string.h>
 #include <locale.h>
-#define MAX 81
+#define MAX 80
 
-int lerPont(char *str){
-   int cont1,valor=0;
-   char pont;
-   pont = ",.;:!?()-";
-   for(cont1=0; str[cont1]; cont1++){
-      if(str[cont1]==pont){
-         valor++
+int lerpont(char *str, int size){//caracteres de pontuação
+    int qnt=0, i;
+    for (i = 0; i < size; i++)
+    {
+      if(str[i]=='?' || str[i]=='!' || str[i]==';' || str[i]=='.' || str[i]=='´' || str[i]=='/' )
+      {
+         qnt++;
       }
-   }
-
-   return valor;
+    }
+    return qnt;
 }
 
-int lerNum(char *str){//função que determina a quantidade de numeros
-   int valor=0,cont1;
-   for (cont1 = 0; str[cont1]; cont1++)
+int lermin(char *str, int size){//quantidade de minúsculas
+   int min=0,i;
+   for (i = 0; i < size; i++)
    {
-      if(str[cont1]>='0' && str[cont1]<='9'){
-         valor++
+      if(str[i]>='a' && str[i]<='z'){
+        min++;
+      }
+   }
+   return min;
+}
+
+int lernum(char *str, int size){//quantidade de números
+   int valor=0,i;
+   for (i = 0; i < size; i++)
+   {
+      if(str[i]>='0' && str[i]<='9'){
+         valor++;
       }
    }
    return valor;
 }
+
 int main(){
    setlocale(LC_ALL, "Portuguese");
    char str[MAX];
+   int size;
    printf("Insira uma frase\n");
-   fgets(str, MAX, stdin);
-   printf("A string tem %zu caracteres", strlen(str));//a função strlen retorna o numero de caracteres da string
-   printf("A string tem %s pontuação\n",lerNum(str));
-   printf("A string tem %s números\n",lerNum(str));
+   scanf("%[^\n]%*c",str);
+   size=strlen(str);
+   printf("A string tem %d caracteres\n", size);//a função strlen retorna o numero de caracteres da string
+   printf("A string tem %d números\n", lernum(str, size));
+   printf("A string tem %d letras minusculas\n", lermin(str, size));
+   printf("Quantidade de caracteres de pontuação = %d\n", lerpont(str, size));
    return 0;
 }
