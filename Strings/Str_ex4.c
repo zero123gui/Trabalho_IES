@@ -2,7 +2,7 @@
 #define MAX 150
 
 void getdata(char nome[], char endereco[], char telefone[], char idade[])
-{
+{//recebe os dados do usuário
    printf("Insira o seu nome:\n");
    scanf("%[^\n]%*c", nome);
    printf("Insira a sua idade:\n");
