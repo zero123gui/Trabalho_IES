@@ -26,10 +26,10 @@ void cadastro(DATA d[],int command,int *posicao){
     if(command == 1)
     {
     printf("%d\n",command);
-    scanf("Digite o nome: %[^\n]%*s\n",d[i].nome);
-    scanf("Digite o endereço: %[^\n]%*s\n",d[i].endereco);
-    scanf("Digite o número: %[^\n]%*s\n",d[i].fone);
-    scanf("Digite o CEP: %ld%*s\n",&d[i].CEP);
+    scanf("Digite o nome: %[^\n]%*c\n",d[i].nome);
+    scanf("Digite o endereço: %[^\n]%*c\n",d[i].endereco);
+    scanf("Digite o número: %[^\n]%*c\n",d[i].fone);
+    scanf("Digite o CEP: %ld%*c\n",&d[i].CEP);
     *posicao += 1;
     i++;
     }

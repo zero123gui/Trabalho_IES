@@ -45,8 +45,8 @@ int main(){
    scanf("%[^\n]%*c",str);
    size=strlen(str);
    printf("A string tem %d caracteres\n", size);//a função strlen retorna o numero de caracteres da string
-   printf("A string tem %d números\n", lernum(str, size));
+   printf("A string tem %d numeros\n", lernum(str, size));
    printf("A string tem %d letras minusculas\n", lermin(str, size));
-   printf("Quantidade de caracteres de pontuação = %d\n", lerpont(str, size));
+   printf("Quantidade de caracteres de pontuacao = %d\n", lerpont(str, size));
    return 0;
 }
