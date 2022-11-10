@@ -25,8 +25,7 @@ int main() {
             printf("quatro ");
         
         if(texto[i] == '5') 
-            printf("cinco ");
-        
+            printf("cinco ");   
     }
     printf("\n");
     }
