@@ -5,9 +5,9 @@
 int main(){
    char texto[MAX];
    int tamanho,i;
-
+   printf("Insira o texto que devera ser invertido:\n");
    while(1!=0){//while fazendo um loop infinito para que o progama rode ate o usuario usar a palavra chave para encerrar o progama
-    scanf("%[^\n]%*c",texto);//escaneia o texto
+   scanf("%[^\n]%*c",texto);//escaneia o texto
    tamanho = strlen(texto);
    if(texto[tamanho-1] == 'm' && texto[tamanho-2] == 'i' && texto[tamanho-3] == 'f')
    //quando digitado a palavra fim o progama para
