@@ -7,6 +7,7 @@ int main(){
 
     char texto[MAX];
     int tamanho;
+    printf("Insira o texto\n");
     scanf("%s",texto);//conforme for scaneado o texto ele ira ler e se os caracteres forem correspondente ao que foi pedido retorna o resultado
     tamanho = strlen(texto);
     if(texto[tamanho-1] == 'M' && texto[tamanho-2] == 'I' && texto[tamanho-3] == 'S'){//caso seja digitado SIM

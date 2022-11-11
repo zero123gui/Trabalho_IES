@@ -14,6 +14,7 @@ void pnotas(NOTAS n){
     printf("%d\n",n.nota3);
 }
 int main(){
+    printf("Entre com as 3 notas: \n");
     NOTAS n;
     scanvet(&n);
     pnotas(n);

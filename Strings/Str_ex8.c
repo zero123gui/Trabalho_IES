@@ -5,7 +5,7 @@
 int main() {
     char texto[MAX];
     int tamanho, i;
-
+    printf("Digite o texto: \n");
     while(texto[0]!= 'f' && texto[1] != 'i' && texto [2] != 'm'){
     scanf("%s%*c", texto);  
     for (i = 0; i <strlen(texto); i++) {

@@ -5,6 +5,7 @@
 int main() {
     char texto[MAX];
     int tamanho, i=1;
+    printf("Entre com a frase: \n");
     scanf("%s%*c", texto);  
     while(i != strlen(texto)) {//o while era aumentar o numero do i ate que chegue no primeiro espaço em branco devido ao metodo de leitura usado no scanf
         i++;

@@ -7,6 +7,7 @@ int main(){
 
     char texto[MAX],copia[MAX];
     int i,j;
+    printf("Digite o texto: ");
     scanf("%[^\n]%*c",texto);
 j = strlen(texto);
     for(i=0;i<j;i++){

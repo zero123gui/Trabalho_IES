@@ -5,6 +5,7 @@
 int main(){
    char frase[MAX];
    int i=0,valor=0;
+   printf("Insira uma frase: \n");
    scanf("%[^\n]%*c",frase);
    while (frase[i]!='\0')
    {

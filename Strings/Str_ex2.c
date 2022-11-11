@@ -7,6 +7,7 @@ int main(){
 
     char palavra[MAX];
     char *pt;
+    printf("Digite uma frase: \n");
     scanf("%[^\n]",&palavra);
     pt = strtok(palavra, "!. ");
     while(pt){

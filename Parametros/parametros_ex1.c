@@ -32,6 +32,7 @@ void result(FATORES f){
 }
 //imprime todos os resultados//
 int main(){
+    printf("Entre com dois números: \n");
     FATORES fa;
     scanfat(&fa);
     result(fa);

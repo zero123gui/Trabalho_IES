@@ -20,6 +20,7 @@ void pdados(FATORES f, int *p){
 }
 //imprime o resultado//
 int main(){
+    printf("Entre com os dois numeros: \n");
     FATORES f;
     int p = 0;
     scanfat(&f);
