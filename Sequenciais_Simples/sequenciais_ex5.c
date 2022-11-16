@@ -4,18 +4,18 @@
 int main(){
    float x,y,raiz;
    printf("Entre com dois numeros: \n");
-   scanf("%f %f", &x, &y);
-   printf("Soma = %f\n", x+y);
-   printf("X * Y = %f\n", x*y);
-   printf("x ao quadrado = %f\n", x*x);
+   scanf("%.2f %.2f", &x, &y);
+   printf("Soma = %.2f\n", x+y);
+   printf("X * Y = %.2f\n", x*y);
+   printf("x ao quadrado = %.2f\n", x*x);
    raiz = sqrt(x+y);
-   printf("Raiz quadrada da soma = %f\n", raiz);
-   printf("Seno da diferenca = %f\n", sin(x-y));
+   printf("Raiz quadrada da soma = %.2f\n", raiz);
+   printf("Seno da diferenca = %.2f\n", sin(x-y));
       if (x<0)
       {
-         printf("Modulo do primeiro = %f\n", (x*(-1)));
+         printf("Modulo do primeiro = %.2f\n", (x*(-1)));
       } else{
-         printf("Modulo do primeiro = %f\n", x);
+         printf("Modulo do primeiro = %.2f\n", x);
       }
    return 0;
 }
