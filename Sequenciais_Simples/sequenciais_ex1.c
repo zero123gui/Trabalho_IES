@@ -7,4 +7,5 @@ int main(){
    printf("%d metros = %d decimetros\n",met, met*10);
    printf("%d metros = %d centimetros\n",met, met*100);
    printf("%d metros = %d milimetros\n",met, met*1000);
+   return 0;
 }

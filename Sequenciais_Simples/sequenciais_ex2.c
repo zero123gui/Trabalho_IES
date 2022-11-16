@@ -6,4 +6,5 @@ int main(){
    {
       printf("9 * %d = %d\n",i, i*9);
    }
+   return 0;
 }
