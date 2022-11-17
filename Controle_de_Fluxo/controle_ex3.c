@@ -6,12 +6,12 @@ int main(){
    scanf("%d",&valor);
    while(valor>100){
       z = valor + (valor*0.2);
-       printf("valor com 10%% de juros: %d",z);
+       printf("valor com 20%% de juros: %d",z);
        break;
    }
    while(valor<=100){
       z = valor + (valor*0.1);
-       printf("valor com 20%% de juros: %d",z);
+       printf("valor com 10%% de juros: %d",z);
        break;
    }
    return 0;
